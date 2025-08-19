@@ -379,6 +379,15 @@ export const originSources = {
     title: "热点资讯",
     home: "https://www.ifeng.com",
   },
+  "hinata": {
+    name: "Hinata",
+    column: "tech",
+    color: "purple",
+    type: "realtime",
+    title: "空项目",
+    home: "https://example.com",
+    disable: true,
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {
